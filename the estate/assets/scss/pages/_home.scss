@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    position: absolute;
+    background: transparent;
+    z-index:1 ;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    nav{
+        width: 70%;
+        height: auto;
+        a{
+            text-align: center;
+        }
+        .collapseDiv{
+            align-items: center;
+            justify-content: center;
+            font-weight: 500;
+            font-size: 20px;
+            color: white;
+        }
+        .number{
+            p{
+                background-color: orangered;
+                color: white;
+            }
+        }
+    }
+}
+main{
+    width: 100%;
+    height: auto;
+    #YourHomeSection{
+        background-image: url(/assets/images/home_slider_bcg.jpg);
+        background-position: center;
+        background-repeat:no-repeat;
+        background-size: cover;
+        width: 100%;
+        min-height: 700px;
+        display: flex;
+        align-items: center;
+        
+            .text{
+                display: flex;
+                justify-content: center;
+                h1{
+                    font-size: 70px;
+                    font-weight: 700;
+                    color: white;
+                    
+                }
+
+            }
+        }
+
+
+        #featuredSection{
+            width: 100%;
+            min-height: 700px;
+            text-align: center;
+        }
+
+        #clientsSection{
+            display: flex;
+           align-items: center;
+           width: 100%;
+          min-height: 700px;
+           background-image: url(/assets/images/testimonials_background.jpg);
+           background-position: center;
+           background-repeat:no-repeat;
+           background-size: cover;
+
+        //   .content{
+        //     color: white;
+        //     display: flex;
+        //     justify-content: center;
+        //   }
+
+
+        .content{
+            color: white;
+            font-size: 15px;
+            text-align: center;
+            h1{
+                font-size: 25px;
+            }
+            
+        }
+
+        .images{
+            margin: auto;
+            text-align: center;
+            img{
+                border-radius: 50%;
+            }
+        }
+        .pp{
+            color: orange;
+            text-align: center;
+
+        }
+
+        p{
+            color: white;
+            font-size: 10px;
+            text-align: center;
+        }
+        }
+
+        #cardSection{
+            text-align: center;
+            h1{
+                font-size: 25px;
+                color: black;
+            }
+
+
+            .images{
+                position: relative;
+                
+                img{
+                    width: 100%;
+                    height: auto;
+                }
+                .btn{
+                    position: absolute;
+                    bottom: 30px;
+                    left: 40px;
+                    background-color: orangered;
+                    color:white;
+
+                   
+
+                }
+            }
+
+
+        }
+
+
+
+    }
